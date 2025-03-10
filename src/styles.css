@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* Import ag-Grid styles */
+@import "ag-grid-community/styles/ag-grid.css";
+@import "ag-grid-community/styles/ag-theme-alpine.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Optional: You can add custom styles here */
+
+/* For example, adjusting the height and layout of ag-Grid */
+.ag-theme-alpine {
+  height: 500px;
+  width: 100%;
+}
+
+/* Custom styles for the body or other elements */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Custom styles for the grid container */
+.ag-grid-angular {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Optional: Styling the grid's header */
+.ag-header-cell {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Optional: Styling the grid's rows */
+.ag-row {
+  background-color: white;
+}
+
+.ag-row-even {
+  background-color: #fafafa;
+}
+
+/* Optional: Hover effects for rows */
+.ag-row-hover {
+  background-color: #e0e0e0;
+}
